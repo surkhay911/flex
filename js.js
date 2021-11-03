@@ -2,23 +2,51 @@ var elements = document.getElementsByClassName("column");
 
 var i;
 
-prompt(elements.length);
-
 function one() {
     for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "100%";
+        elements[i].style.flex = "0 1 100%";
     }
 }
 
 function two() {
     for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "50%";
+        elements[i].style.flex = "0 1 50%";
+    }
+}
+
+function three() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.flex = "0 1 33%";
     }
 }
 
 function four() {
     for (i = 0; i < elements.length; i++) {
-        elements[i].style.flex = "25%";
+        elements[i].style.flex = "0 1 25%";
+    }
+}
+
+function five() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.flex = "0 1 20%";
+    }
+}
+
+function six() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.flex = "0 1 16.6%";
+    }
+}
+
+function seven() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.flex = "0 1 14.2%";
+    }
+}
+
+function eight() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.flex = "0 1 12.5%";
     }
 }
 
